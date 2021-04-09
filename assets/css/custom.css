@@ -9,3 +9,15 @@
 #logo {
 	max-width: 110px;
 }
+
+
+@media only screen and (max-width: 375px) {
+	#jd-sholat {
+		display: none;
+	}
+
+	.font-weight-bold {
+		/* font-weight: 500 !important; */
+		font-size: 34px !important;
+	}
+}
